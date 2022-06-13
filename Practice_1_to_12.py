@@ -1,6 +1,7 @@
 # Practice the concepts from Day 1 to Day 12
 # practice use only sundays...
 # Variables
+from Practice_1_to_12_art import logo
 my_learn = 'I am learning my python programing!'
 print(my_learn)
 a = 1
@@ -72,7 +73,7 @@ final_amount = round(bill_per_people, 2)
 print(f'Each person should pay: {final_amount}')
 
 # RoadCoaster
-
+print(logo)
 height = int(input('Hey buddy enter your height in cm: '))
 
 if height > 120:
@@ -90,7 +91,7 @@ if height > 120:
         bill = 15
         print(f'Hey buddy  your ticket cost: ${bill}')
     you_like_photo = input(
-        'Hey buddy do you like photo on Roadcoaster Type \'Yes\' to take else Type \'No\' to not interested').lower()
+        'Hey buddy do you like photo on Roadcoaster Type \'Yes\' to take else Type \'No\' to not interested? ').lower()
     if you_like_photo == 'yes':
         bill += 3
         print(f' Hey buddy your total amount is: {bill}')
