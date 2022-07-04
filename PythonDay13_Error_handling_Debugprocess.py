@@ -45,3 +45,11 @@ def mutate(a_list):
 
 
 mutate([1, 2, 3, 5, 8, 13])
+
+
+# Take a break
+# Ask a friend--Human or python tutpr 
+# Run often--try to tackle some lines of code  do not run entire program
+#Ask a stackoverflow
+
+
